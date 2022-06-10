@@ -1,0 +1,28 @@
+// Place all the styles related to the Cats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  background-color: blanchedalmond;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: whitesmoke;
+  border-radius: 16px;
+  border: 1px dotted turquoise;
+  margin: auto;
+  text-align: center;
+}
+
+.cat-img {
+  max-width: 400px;
+  max-height: 400px;
+}
